@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaelo", "Kaelo\Kaelo.csproj", "{F5109645-EE89-4848-A3EA-36B6855ABB09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5109645-EE89-4848-A3EA-36B6855ABB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5109645-EE89-4848-A3EA-36B6855ABB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5109645-EE89-4848-A3EA-36B6855ABB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5109645-EE89-4848-A3EA-36B6855ABB09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {984C52EC-F7C8-449A-BDC2-371946A93266}
+	EndGlobalSection
+EndGlobal

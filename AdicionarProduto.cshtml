@@ -1,0 +1,42 @@
+﻿@model Kaelo.Models.Produto
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/Home.css" />
+
+<div class="text-center">
+    <h1 class="display-4">Cadastrar um novo produto</h1>
+    <p> Novo Produto</p>
+
+    <div>
+
+        <form>
+                <fieldset>
+                    @using (Html.BeginForm("AdicionarProduto", "Home", FormMethod.Get))
+                 {
+                    <label for="name">Insira a Marca</label>
+                    <input type="text" value="" placeholder="Marca" asp-for="Marca"/>
+
+                    <label for="name">Insira o Valor</label>
+                    <input type="text" value="" placeholder="Valor" asp-for="Valor"/>
+
+                    <label for="name">Qual o Tamanho</label>
+                    <input type="text" value="" placeholder="Tamanho" asp-for="Tamanho"/>
+                    
+                    <label for="name">Nomear o IDproduto</label>
+                    <input type="text" value="" placeholder="IdProdutoo" asp-for="IdProduto"/>
+
+                    <input type="submit" value="Cadastrar produto" id="botao1"/>
+                 }
+
+                 </fieldset>
+         </form>
+     </div>
+
+</div>
+
+ 
+            
+          
+        
